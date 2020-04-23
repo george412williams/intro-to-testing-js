@@ -10,3 +10,20 @@ function sayHello(input) {
         return "Hello, " + input + "!";
     }
 }
+
+function isFive(input) {
+    return true;
+}
+
+
+function isEven() {
+
+}
+
+function isVowel() {
+    
+}
+
+function add() {
+
+}

@@ -35,3 +35,33 @@ describe('sayHello', function () {
     });
 
 });
+
+describe('isFive', function () {
+    it('should be a defined function', function () {
+        expect(typeof isFive).toBe("function");
+    });
+    it('should return a boolean for any input', function () {
+        expect(typeof isFive).toBe("boolean");
+    });
+    it('should return true for 5', function () {
+        expect(isFive).toBe(true);
+    });
+});
+
+describe('isEven', function () {
+    it('should be a defined function', function () {
+        expect(typeof isEven).toBe("function");
+    });
+});
+
+describe('isVowel', function () {
+    it('should be a defined function', function () {
+        expect(typeof isVowel).toBe("function");
+    });
+});
+
+describe('add', function () {
+    it('should be a defined function', function () {
+        expect(typeof add).toBe("function");
+    });
+});
