@@ -12,7 +12,7 @@ function sayHello(input) {
 }
 
 function isFive(input) {
-    return true;
+    return input === true;
 }
 
 

@@ -43,7 +43,7 @@ describe('isFive', function () {
     it('should return a boolean for any input', function () {
         expect(typeof isFive).toBe("boolean");
     });
-    it('should return true for 5', function () {
+    it('should return true for "5"', function () {
         expect(isFive).toBe(true);
     });
 });
